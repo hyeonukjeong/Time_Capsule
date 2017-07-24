@@ -1,0 +1,78 @@
+page-main {
+
+    @import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+    * {
+      font-family: 'NanumSquare', sans-serif;
+      font-weight: 800;
+    }
+    
+.nav {
+    padding-top: 15px;
+}
+.nav-text {
+    padding-top: 10px;
+}
+
+.capsule {
+    width: 100%;
+    margin: 0 auto;
+
+    padding: 30px;
+    margin-top: 20%;
+    margin-bottom: 60%;
+
+    .image {
+        width: 40%;
+        float: left;
+
+        img {
+            width: 100%;
+            clear: both;
+            padding: 10px;
+        }
+    }
+
+    .text { 
+        width: 60%;
+        float: right;
+        text-align: center;
+        padding-top: 12%;
+        position: relative;
+
+        h2 { 
+            font-weight: bold;
+        }
+
+        p {
+            position: relative;
+            top: 65%;
+            
+        }
+    }
+
+
+}
+
+.btn {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+    .text {
+        font-size: 40px;
+
+        h2 {
+            font-size: 70px;
+        }
+    }
+
+    .btn {
+        padding: 50px;
+        font-size: 35px;
+    }
+}
+}

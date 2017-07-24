@@ -1,0 +1,57 @@
+page-list {
+
+@import url(https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css);
+* {
+font-family: 'NanumSquare', sans-serif;
+font-weight: 800;
+}
+
+  ion-title {
+    margin-top: 10px;
+  }
+
+  .scroll-content {
+    padding-top: 24px !important;
+  }
+
+.item-block {
+border: 3px solid gray;
+margin-bottom: 10px;
+}
+
+#username {
+font-size: 1em;
+margin-top: 0px !important;
+}
+
+#capsuleName {
+margin-left: 10px;
+}
+
+#capsuleExpire {
+margin-left: 10px;
+color: gray;
+font-weight: 400;
+}
+.capsule {
+margin-top: 30px;
+.list {
+width: 100%;
+border: 1px solid black;
+padding: 5px;
+text-align: right;
+}
+
+a {
+text-decoration: none;
+color: black;
+}
+
+img {
+float: left;
+width: 30%;
+padding-top: 15px;
+padding-right: 30px;
+}
+}
+}
